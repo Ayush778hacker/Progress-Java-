@@ -154,7 +154,7 @@ public class Suru {
         }
         else{System.out.println("You are no eligible to vote You can proceed: ");
         }
-        /*17*/
+        /*17
         System.out.println("Enter Day: ");
         int day = sc.nextInt();
 
@@ -174,6 +174,7 @@ public class Suru {
             System.out.println("Sunday");}
         else{System.out.println("Error value");
         }
+        */
         /*18*/
         System.out.println("Enter First No: ");
         double fn = sc.nextDouble();
@@ -188,6 +189,7 @@ public class Suru {
         else if(tn>sn && tn>fn){
             System.out.println("c is greater than a and b");}
         else{System.out.println(" Error Value");}
+
         }
         }
 
