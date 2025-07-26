@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class loops {
+    public static void main (String [] args){
+        Scanner sc = new Scanner(System.in);
+        /*Table*/
+        System.out.println("Enter Number For You Want Table: ");
+        int a = sc.nextInt();
+        for(int i=1;i<=10;i++){
+            System.out.println(a + " * " + i + " = " + (a*i));
+        }
+    }
+}
