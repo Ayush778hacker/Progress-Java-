@@ -189,14 +189,44 @@ public class Suru {
             System.out.println("c is greater than a and b");}
         else{System.out.println(" Error Value");}
         */
-        /*23*/
-        System.out.println("Enter number: ");
-        int n = sc.nextInt();
-        for(int i=1;i<=n;i++){
-            System.out.println("Hello World");
+        /*19
+        System.out.println("Enter Year: ");
+        int year = sc.nextInt();
+        if(year%4==0 && year%100 !=0){
+            System.out.println(year + "Is A Leap year");
         }
+        else if(year%4==0 && year%100 == 0 && year%400==0){
+            System.out.println(year + "Is A Leap year");
         }
+        else{
+            System.out.println(year + "Is Not A Leap Year");
         }
+        */
+         /*20
+        System.out.println("Enter Amount: ");
+        double amount = sc.nextDouble();
+        if(amount>0 && amount<=1000){
+            System.out.println("Payable Amount: " + amount);
+        }
+        else if(amount>1000 && amount<=4000){
+            System.out.println("Payable Amount: " + (amount-(amount*2)/100));
+        }
+        else if(amount>4000 && amount<=7000){
+            System.out.println("Payable Amount: " + (amount-(amount*3)/100));
+        }
+        else if (amount>7000 && amount<=10000){
+            System.out.println("Payable Amount: " + (amount-(amount*5)/100));
+        }
+        else if(amount>1000){
+            System.out.println("Payable Amount: " + (amount-(amount*8)/100));
+        }
+        else{
+            System.out.println("Invalid value");
+        }
+        */
+
+    }
+}
 
 
 
