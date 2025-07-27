@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class loops {
-    public static void main (String [] args){
+    public static void main (String [] args) {
         Scanner sc = new Scanner(System.in);
         /*23
         System.out.println("Enter number: ");
@@ -153,19 +153,93 @@ public class loops {
             v=v/10;
         }
         */
-        /*37*/
-        System.out.print("ENter Number: ");
-        int a = sc.nextInt();
-        int copy = a;
+        /*37
+        System.out.print("Enter number yyou want to reverse: ");
+        int n = sc.nextInt();
         int rev = 0;
-        while(a>0){
-            int digs = a%10;
-            rev = digs;
-            a= a/10;
+        int copy = n;
+        while(n>0){
+            int digs = n%10;
+            rev =(rev*10)+digs;
+            n=n/10;
         }
-        if(copy==rev){
-            System.out.println("Palindromic");
+        if(copy == rev){
+            System.out.print("Number is Pallindromic.");
+        }else{
+            System.out.print("Number is not Pallindromic.");
         }
+*/
+        /*38
+        System.out.print("Enter umber: ");
+        int a = sc.nextInt();
+        int sum = 0;
+        int copy = a;
+        while (a > 0) {
+            int digs = a % 10;
+            int fact = 1;
+            for (int i = 1; i <= digs; i++) {
+                fact = fact * i;
+            }
+            sum = sum + fact;
+            a = a / 10;
+        }
+        System.out.println(sum);
+        */
+        /*39
+        System.out.print("Enter Number: ");
+        int n = sc.nextInt();
+        int copy = n;
+        int count = 0;
+        int sq=copy*copy;
+        while(n>0){
+            count++;
+            n=n/10;
+        }
+        if(sq % Math.pow(10,count)== copy){
+            System.out.println("Automorphic");
+        }
+        else{
+            System.out.println("Not Automorphic");
+        }
+*/
+        /*42*/
+        System.out.print("Enter Number: ");
+        int n = sc.nextInt();
+        switch(n){
+            case 1 : {
+                System.out.print("Monday");
+                break;
+            }
+            case 2 : {
+                System.out.print("Tuesday");
+                break;
+            }
+            case 3 : {
+                System.out.print("Wednesday");
+                break;
+            }
+            case 4 : {
+                System.out.print("Thursday");
+                break;
+            }
+            case 5 : {
+                System.out.print("Friday");
+                break;
+
+            }
+            case 6 : {
+                System.out.print("Saturday");
+                break;
+            }
+            case 7 : {
+                System.out.print("Sunday");
+                break;
+            }
+            default : {
+                System.out.println("Invalid value");}
+
+        }
+
     }
 
 }
