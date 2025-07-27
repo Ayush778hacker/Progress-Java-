@@ -223,8 +223,8 @@ public class Suru {
         else{
             System.out.println("Invalid value");
         }
-        */
-    /*21*/
+*/
+    /*21
         System.out.print("Enter Units: ");
         double units = sc.nextInt();
 
@@ -267,7 +267,9 @@ public class Suru {
                 System.out.println("Consonant");
             }
         }
-        */
+
+     */
+
     }
 }
 
