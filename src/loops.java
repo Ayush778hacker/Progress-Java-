@@ -170,7 +170,7 @@ public class loops {
         }
 */
         /*38
-        System.out.print("Enter umber: ");
+        System.out.print("Enter number: ");
         int a = sc.nextInt();
         int sum = 0;
         int copy = a;
@@ -202,7 +202,7 @@ public class loops {
             System.out.println("Not Automorphic");
         }
 */
-        /*42*/
+        /*42
         System.out.print("Enter Number: ");
         int n = sc.nextInt();
         switch(n){
@@ -239,6 +239,9 @@ public class loops {
                 System.out.println("Invalid value");}
 
         }
+        */
+        /*Patterns*/
+
 
     }
 
