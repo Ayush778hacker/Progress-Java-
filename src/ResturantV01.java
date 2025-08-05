@@ -95,9 +95,88 @@ public class ResturantV01 {
                 break;
             }
             case 3 : {
+                do{
+                    System.out.println("Press 1 for Spaghetti Carbonara");
+                    System.out.println("Press 2 For Margherita Pizza");
+                    System.out.println("Press 3 For Lasagna");
+                    System.out.println("Press 4 For Risotto alla Milanese");
+                    System.out.println("Press 5 For Exit Menu");
+                    int it = sc.nextInt();
+                    switch(it)  {
+                        case 1 : {
+                            System.out.println("Thank You For Your Order of Spaghetti Carbonara");
+                            bill = bill +250;
+                            break;
+                        }
+                        case 2 : {
+                            System.out.println("Thank You For Your Order Of Margherita Pizza");
+                            bill = bill + 300;
+                            break;
+                        }
+                        case 3 : {
+                            System.out.println("Thank You For Your Order of Lasagna");
+                            bill = bill +260;
+                            break;
+                        }
+                        case 4 : {
+                            System.out.println("Thank You For your Order of Risotto alla Milanese");
+                            bill = bill+400;
+                            break;
+                        }
+                        case 5 : {
+                            System.out.println("Thank You For Visit");
+                            i =(i*0)+5;
+                            break;
+                        }
+                    }
+                }
+                while(i!=5);
 
+            }
+            case 4 : {
+                do{
+                    System.out.println("Press 1 For Kung Pao Chicken");
+                    System.out.println();
+                    System.out.println("Press 2 For Sweet and Sour Pork");
+                    System.out.println();
+                    System.out.println("Press 3 For Mapo Tofu");
+                    System.out.println();
+                    System.out.println("Press 4 For Chow Mein");
+                    System.out.println();
+                    System.out.println("Press 5 For Exit menu");
+                    int ch = sc.nextInt();
+                    switch(ch) {
+                        case 1 : {
+                            System.out.println("Thank You For Your Order Of Kung Pao Chicken");
+                            bill = bill +240;
+                            break;
+                        }
+                        case 2 : {
+                            System.out.println("Thank You For Order Of Sweet and Sour Pork");
+                            bill = bill+250;
+                            break;
+                        }
+                        case 3 : {
+                            System.out.println("Thank You For Your Order Of Mapo Tofu");
+                            bill = bill+270;
+                            break;
+                        }
+                        case 4 : {
+                            System.out.println("Thank You For Your Order Of Chow Mein");
+                            bill = bill + 60;
+                            break;
+                        }
+                        case 5 : {
+                            System.out.println("Thank You For Your Visit");
+                            i = (i*0)+5;
+                            break;
+                        }
+                    }
+                }
+                while(i!=5);
             }
         }
         System.out.println("Your Total Payable Amount is : " + bill);
+
     }
 }
