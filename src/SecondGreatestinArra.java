@@ -15,7 +15,7 @@ public class SecondGreatestinArra {
                 secondGreatest = greatest;
                 greatest = arr[i];
             }
-            else if(arr[i]>secondGreatest){
+            else if(arr[i]>secondGreatest && arr[1]!= greatest){
                 secondGreatest = arr[i];
             }
 
