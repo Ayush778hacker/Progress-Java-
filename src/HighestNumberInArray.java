@@ -8,7 +8,10 @@ public class HighestNumberInArray {
         int arr[] = new int[size];
         int max = 0 , index = 0;
         for(int i=0;i<arr.length;i++){
+            System.out.println("Enter " + (i+1) + " element" );
             arr[i] = sc.nextInt();
+        }
+        for(int i=0;i<arr.length;i++){
             if(arr[i]>max){
                 max = arr[i];
                 index =i;

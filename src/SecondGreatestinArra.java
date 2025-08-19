@@ -11,6 +11,9 @@ public class SecondGreatestinArra {
         for(int i=0;i<arr.length;i++){
             System.out.println("Enter " + (i+1) + " element" );
             arr[i] = sc.nextInt();
+        }
+        for(int i=0;i<arr.length;i++){
+
             if(arr[i]>greatest){
                 secondGreatest = greatest;
                 greatest = arr[i];
