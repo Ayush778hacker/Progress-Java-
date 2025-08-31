@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 import javax.swing.*;
+=======
+import java.util.Arrays;
+>>>>>>> master
 import java.util.Scanner;
 
 public class Suru {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+<<<<<<< HEAD
 /*1
         int a =15;
         int b= 6;
@@ -192,6 +197,11 @@ public class Suru {
 
         }
         }
+=======
+
+    }
+}
+>>>>>>> master
 
 
 
