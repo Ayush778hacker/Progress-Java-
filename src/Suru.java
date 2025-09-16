@@ -1,13 +1,19 @@
 <<<<<<< HEAD
-import javax.swing.*;
-=======
-import java.util.Arrays;
->>>>>>> master
 import java.util.Scanner;
+import java.util.Arrays;
+import javax.swing.*;
+import java.util.HashMap;
+import java.util.Map;
+=======
+<<<<<<< HEAD
+>>>>>>> master
+=======
+>>>>>>> master
 
 public class Suru {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+<<<<<<< HEAD
 <<<<<<< HEAD
 /*1
         int a =15;
@@ -199,6 +205,11 @@ public class Suru {
         }
 =======
 
+=======
+        for (int i=0;i<65535;i++){
+            System.out.print((char)i + " ");
+        }
+>>>>>>> master
     }
 }
 >>>>>>> master

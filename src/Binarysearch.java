@@ -9,7 +9,7 @@ public class Binarysearch {
         int f=0;
         int l=arr.length-1;
         while(f<=l){
-        int mid= (f+l)/2;
+        int mid= f+ (l-f)/2;
             if(arr[mid]==target){
                 System.out.println("Found At Index: " + mid);
                 break;
