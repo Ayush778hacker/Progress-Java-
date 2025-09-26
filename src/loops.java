@@ -1,13 +1,11 @@
 import java.util.Scanner;
 
 public class loops {
-<<<<<<< HEAD
+
     public static void main (String [] args){
         Scanner sc = new Scanner(System.in);
         /*Table*/
-=======
-    public static void main (String [] args) {
-        Scanner sc = new Scanner(System.in);
+
         /*23
         System.out.println("Enter number: ");
         int n = sc.nextInt();
@@ -31,15 +29,15 @@ public class loops {
 */
 
         /*26
->>>>>>> master
+
         System.out.println("Enter Number For You Want Table: ");
         int a = sc.nextInt();
         for(int i=1;i<=10;i++){
             System.out.println(a + " * " + i + " = " + (a*i));
         }
-<<<<<<< HEAD
+
     }
-=======
+
 */
          /*27
         System.out.print("Enter Number for sum: ");
@@ -254,5 +252,5 @@ public class loops {
 
     }
 
->>>>>>> master
+
 }

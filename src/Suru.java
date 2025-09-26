@@ -1,20 +1,15 @@
-<<<<<<< HEAD
+
 import java.util.Scanner;
 import java.util.Arrays;
 import javax.swing.*;
 import java.util.HashMap;
 import java.util.Map;
-=======
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> master
+
 
 public class Suru {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 /*1
         int a =15;
         int b= 6;
@@ -24,7 +19,7 @@ public class Suru {
   int a =18;
   int b= 8;
   System.out.println("The sum of "+ a + " & " + b + " is " + (a+b));
-  *
+  */
  /*3
         System.out.println("Enter First Number: ");
         int a = sc.nextInt();
@@ -121,7 +116,7 @@ public class Suru {
         System.out.println("Enter Radius: ");
         int radii = sc.nextInt();
          double sa= 4*(22/7)*Math.pow(radii,2);
-  *       System.out.println(sa);
+        System.out.println(sa);
          */
 
          /*11
@@ -199,20 +194,19 @@ public class Suru {
         }
         else if(tn>sn && tn>fn){
             System.out.println("c is greater than a and b");}
-        else{System.out.println(" Error Value");}
+        else{System.out.println(" Error Value");
+        }
 
         }
-        }
-=======
 
-=======
-        for (int i=0;i<65535;i++){
-            System.out.print((char)i + " ");
-        }
->>>>>>> master
+
+
+
+
+
     }
-}
->>>>>>> master
+
+
 
 
 

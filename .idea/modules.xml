@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/Start.iml" filepath="$PROJECT_DIR$/Start.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
->>>>>>> master
+      <module fileurl="file://$PROJECT_DIR$/Progress-Java-.iml" filepath="$PROJECT_DIR$/Progress-Java-.iml" />
     </modules>
   </component>
 </project>
