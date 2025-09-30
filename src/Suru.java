@@ -146,12 +146,14 @@ public class Suru {
         else{System.out.println("Value Error");
         }*/
         /*15*/
+        /*
         System.out.println("Enter No: ");
         double n = sc.nextDouble();
         if(n%2==0) System.out.println("No is Even: "+ n);
         else{System.out.println("No is Odd: "+ n);
-        }
+        }*/
         /*16*/
+        /*
         System.out.println("Enter Your Age: ");
         int age = sc.nextInt();
         if(age<18) System.out.println("You are not  vaild to vote till this age");
@@ -160,6 +162,7 @@ public class Suru {
         }
         else{System.out.println("You are no eligible to vote You can proceed: ");
         }
+        */
         /*17
         System.out.println("Enter Day: ");
         int day = sc.nextInt();
@@ -182,6 +185,7 @@ public class Suru {
         }
         */
         /*18*/
+        /*
         System.out.println("Enter First No: ");
         double fn = sc.nextDouble();
         System.out.println("Enter Second No: ");
@@ -195,14 +199,11 @@ public class Suru {
         else if(tn>sn && tn>fn){
             System.out.println("c is greater than a and b");}
         else{System.out.println(" Error Value");
+        }*/
+    for(int i=0;i<=10000000;i++){
+        System.out.println(i);
+    }
         }
-
-        }
-
-
-
-
-
 
     }
 
